@@ -4,6 +4,7 @@
 3. [データベースの作成・削除](#chapter3)
 4. [テーブルの作成・削除](#chapter4)
 5. [シーケンスの作成](#chapter5)
+6. [参考文献](#site)
 <br>
 
 <a id ="chapter1"></a>
@@ -144,3 +145,19 @@ values (nextval('シーケンス名'), 'おんせん', '2020-02-02');
     cDate timestamp NOT NULL);
     </code>
     <br>
+<a id = "site"></a>
+
+6. 参考文献
+   <br>
+   ユーザーの作成・DBの作成で用いたもの
+   <br>
+   [Ubuntu18.04にPostgreSQLをインストール]("https://qiita.com/eighty8/items/82063beab09ab9e41692")
+   <br>
+   テーブルの作成で用いたもの
+   <br>
+   [2.3. 新しいテーブルの作成]("https://www.postgresql.jp/document/9.2/html/tutorial-table.html")
+   <br>
+   シーケンスの作成で用いたもの
+   <br>
+   [PostgreSQL で連番の数字のフィールドを作る方法 (sequence について)]("http://www.abe-tatsuya.com/web_prog/postgresql/seaquence.php")
+   <br>
